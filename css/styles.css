@@ -8,10 +8,10 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  border: 1px solid #e7e7e7;
-  background-color: #dddddd;
+  overflow: hidden;
+  background-color: #edb265;
   position: fixed;
-  top: 0;
+  bottom: 0;
   width: 100%;
 }
 li {
@@ -19,12 +19,11 @@ li {
 }
 li a {
   display: block;
-  width: 150px;
-  color: #666;
+  color: white;
   text-align: center;
-  padding: 8px;
-  background-color: rgb(51,51,51);
+  padding: 20px 20px;
+  text-decoration: none;
 }
 li a:hover {
-  background-color: rgb(17,17,17);
+  background-color: #4CAF50;
 }
