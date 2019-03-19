@@ -7,6 +7,10 @@ body {
   background: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
 }
 
+.header{
+  margin-left: 50px;
+}
+
 h1 {
 text-align: center;
 color: #fff;
@@ -45,7 +49,7 @@ li a:hover {
 }
 
 .container {
-  background: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center center;
+  background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/HPWsSXb4xiwrj8lkx/videoblocks-tropical-beach-background-loop_bhjouqunm_thumbnail-full01.png") center center;
   background-size: cover;
   height: 600px;
   text-align: center;
@@ -85,4 +89,5 @@ li a:hover {
   height: 80px;
   line-height: 80px;
   margin: 0;
+  margin-left: 50px;
 }
