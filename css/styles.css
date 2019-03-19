@@ -5,9 +5,7 @@ html, body{
 
 body {
   background: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  margin: 0px;
+  background-size: cover;
 }
 
 h1 {
