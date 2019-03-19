@@ -1,6 +1,6 @@
 html, body{
   margin: 0;
-  padding: 0;
+  padding-top: 30px;
 }
 
 body {
@@ -48,10 +48,18 @@ li a:hover {
   background: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center center;
   background-size: cover;
   height: 600px;
+  text-align: center;
+}
+
+.container h2 {
+  padding-top: 50px;
+  color: rgb(95,76,134);
+  text-align: center;
+  font-size: 30px;
 }
 
 .container p {
-  color: #fff;
+  color: rgb(95,76,134);
   font-size: 20px;
   height: 80px;
   line-height: 80px;
@@ -60,15 +68,9 @@ li a:hover {
   padding: 0 30px;
 }
 
-.container h2 {
-  color: #black;
-  text-align: right;
-  font-size: 30px;
-}
-
 .container .btn {
   margin: 10px 0 0;
-  float: right;
+  float: center;
 }
 
 .footer {
@@ -78,7 +80,7 @@ li a:hover {
 }
 
 .footer p {
-  color: #fff;
+  color: rgb(95,76,134);
   font-size: 20px;
   height: 80px;
   line-height: 80px;
